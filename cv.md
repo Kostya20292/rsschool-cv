@@ -30,3 +30,18 @@ function multiply(a, b){
 return a \* b
 }
 ```
+
+## Experience
+
+Nothing yet…
+
+## Education
+
+- Belarusian State University Of Infomatics And Radio Electronics
+- Courses
+  - Glo Academy
+  - MethEd
+
+## English
+
+B1 (I studied English on Streamline courses in Minsk)
