@@ -5,6 +5,285 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <ul class="header__navigation-list">
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Contacts</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Summary</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Skills</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Code</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Project</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">Education</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a href="#" class="header__navigation-list-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container about__container">
+          <img src="assets/img/avatar.jpg" alt="Avatar" class="about__image" />
+          <div class="about__info">
+            <h1 class="about__name">Konstantin Makarevich</h1>
+            <h3 class="about__job">Junior Front-End Developer</h3>
+          </div>
+        </div>
+      </section>
+      <div class="section__wrapper container">
+        <section class="contacts section">
+          <div class="container">
+            <h2 class="section__title">Contacts</h2>
+            <ul class="section__list">
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/location.svg"
+                  alt="location"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">Minsk, Belarus</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/email.svg"
+                  alt="Email"
+                  class="section__list-icon"
+                />
+                <a
+                  href="mailto:mak.kostya2029@gmail.com"
+                  class="section__list-link"
+                  >mak.kostya2029@gmail.com</a
+                >
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/github.svg"
+                  alt="GitHub"
+                  class="section__list-icon"
+                />
+                <a
+                  href="https://github.com/Kostya20292"
+                  class="section__list-link"
+                  >Kostya20292</a
+                >
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/telegram.svg"
+                  alt="Telegram"
+                  class="section__list-icon"
+                />
+                <a href="https://t.me/Kostya2029" class="section__list-link"
+                  >https://t.me/Kostya2029</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="summary section">
+          <div class="container">
+            <h2 class="section__title">Summary</h2>
+            <p class="section__text">
+              For about a year, I took various intensive courses and courses
+              from such schools as Glo Academy, MethEd, Html Academy and others.
+              During this time I have mastered such technologies well as: Html,
+              Css, Scss, Sass, Javascript, Git.
+            </p>
+          </div>
+        </section>
+        <section class="skills section">
+          <div class="container">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__list">
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">HTML</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">CSS</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">Javascript</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">Git</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="code section">
+          <div class="container">
+            <h2 class="section__title">Code Example</h2>
+            <code class="section__text">
+              function multiply(a, b) { <br />
+              return a \* b <br />
+              }
+            </code>
+          </div>
+        </section>
+        <section class="courses section">
+          <div class="container">
+            <h2 class="section__title">Courses</h2>
+            <ul class="section__list">
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">Glo Academy</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">MethEd</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">HTML Academy</a>
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a href="#" class="section__list-link">Udemy</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="projects section">
+          <div class="container">
+            <h2 class="section__title">Projects</h2>
+            <ul class="section__list">
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a
+                  href="https://github.com/Kostya20292/FreelancersWay"
+                  class="section__list-link"
+                  >Freelancer's Way</a
+                >
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a
+                  href="https://github.com/Kostya20292/CinemaBookingWebsite"
+                  class="section__list-link"
+                  >Cinema Booking Website</a
+                >
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a
+                  href="https://github.com/Kostya20292/Mercedes"
+                  class="section__list-link"
+                  >Mercedes</a
+                >
+              </li>
+              <li class="section__list-item">
+                <img
+                  src="assets/svg/circle.svg"
+                  alt="circle"
+                  class="section__list-icon"
+                />
+                <a
+                  href="https://github.com/Kostya20292/Melody"
+                  class="section__list-link"
+                  >Melody</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="education section">
+          <div class="container">
+            <h2 class="section__title">Education</h2>
+            <p class="section__text">
+              Belarusian State University Of Infomatics And Radio Electronics
+            </p>
+          </div>
+        </section>
+        <section class="english section">
+          <div class="container">
+            <h2 class="section__title">English</h2>
+            <p class="section__text">
+              B1 (I studied English on Streamline courses in Minsk)
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <span class="footer__year">2022</span>
+        <a href="https://github.com/Kostya20292" class="footer__github"
+          >GitHub: Kostya20292</a
+        >
+        <a href="https://rs.school/js/" class="footer__logo"></a>
+      </div>
+    </footer>
+  </body>
 </html>
